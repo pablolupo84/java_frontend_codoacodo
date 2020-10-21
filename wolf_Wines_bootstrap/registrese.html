@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wolf Wines</title>
+    <script src="https://kit.fontawesome.com/4caa382583.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="CSS/main.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a class="nav" href="index.html">Home</a>
+            <a class="nav" href="about.html">Acerda de ..</a>
+            <a class="nav" href="contacto.html">Contacto</a>
+            <a class="nav" href="registrese.html">Registrese</a>
+            <a class="nav" href="sucursales.html">Sucursales</a>
+        </nav>
+        <h1>Wolf Wines - Vinos Argentinos</h1>
+    </header>
+    <menu>
+        <h2>Formulario de Registro</h2>
+        <form action="show_data.html" target="_blank">
+            <div class="datos">
+                <label for="firstname">Nombre: </label><input size="30" type="text" name="firstname" placeholder="Ingrese su nombre aqui..." >
+                <label for="lastname">Apellido:</label><input size="30"  type="text" name="lastname" placeholder="Ingrese su apellido aqui...">
+            </div>
+            <div class="direccion">
+                <p>Direccion <br>
+                    <label for="street">Calle:</label><input type="text" name="address" placeholder="Ingrese su dirección aqui..." >
+                    <label for="number">Numero:</label><input type="number" name="number" placeholder="Ingrese su numero aqui..." >
+                    <label for="city">Ciudad: </label><input type="text" name="city" value="C.A.B.A." >
+                    <label for="zipcode">Código Postal:</label><input type="text" name="zipcode" placeholder="Ingrese su codigo postal aqui..." >
+                </p>
+            </div>
+            <div>
+                <label for="telephone">Telefono: </label>  <input type="tel" name="telephone" placeholder="Ingrese su telefono aqui...">
+                <label for="birthDate">Fecha Nac.(mm/dd/yyyy): </label>  <input type="date" name="birthdate" >
+                <label for="email">Email: </label>  <input type="email" name="email" placeholder="Ingrese su email aqui...">
+                <label for="clave">Clave: </label>  <input type="password" name="clave" placeholder="Ingrese su clave aqui...">
+                <label for="link">Link TP: </label>  <input type="url" name="link" placeholder="Ingrese su link TP aqui..." >
+            </div>
+            <div>
+                <p>Género (Radio)
+                    <input type="radio" name="gender" value="Hombre" checked>Hombre
+                    <input type="radio" name="gender" value="Mujer">Mujer
+                    <input type="radio" name="gender" value="Otro">Otro 
+                </p>
+            </div>
+            <div>
+                <p>Varietales que le interesa:
+                    <input type="checkbox" name="Varietales" value="Malbec"> Malbec
+                    <input type="checkbox" name="Varietales" value="Cavernet" > Cavernet
+                    <input type="checkbox" name="Varietales" value="Pinot" > Pinot
+                    <input type="checkbox" name="Varietales" value="Bonarda" > Bonarda
+                    <input type="checkbox" name="Varietales" value="Cavernet Franc" > Cavernet Franc
+                    <input type="checkbox" name="Varietales" value="Chardonay" > Chardonay
+                    <input type="checkbox" name="Varietales" value="Reserva" > Reserva
+                </p>  
+            </div>
+            <input class="nav" type="submit" value="Enviar">
+        </form> 
+        <p>Si usted hace click en el boton "Enviar", la informacion sera enviada a la pagina "show_data.html".</p>
+    </menu>
+    <footer>
+        <a href="https://twitter.com/home?lang=es" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://es-la.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://ar.pinterest.com/" target="_blank"><i class="fab fa-pinterest-square"></i></a>
+        <a href="https://www.instagram.com/?hl=es-la" target="_blank"><i class="fab fa-instagram-square"></i></a>
+        <a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <p>Derechos reservado @2020</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,56 @@
+h1{
+    text-align: center;
+}
+
+header{
+    background-color: darkcyan;
+    color: lightgray;
+}
+
+div{
+    padding: 0.1em;
+}
+
+/* .nav{
+    background-color: brown;
+    color: lightgrey;
+    text-decoration: none;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border-radius: 3px;
+    display: inline-flex;
+    justify-content: center;
+} */
+
+.bloque{
+    /* margin: 1em; */
+    display: inline-flex;
+    justify-content: flex-start;   
+}
+
+.bloque p{
+    margin: 1em;
+    text-align: justify;
+    width: 50%;
+    
+}
+footer{
+    /* display: flex; */
+    /* background-color:lightgray; ; */
+    color: lightgray; 
+    text-align: center;
+    /* margin-top: 10px; */
+}
+
+table{
+    margin: 2em;
+    border: 2px solid darkslategrey;
+    /* color: blue; */
+}
+
+th,td{
+    border:2px solid  darkslategrey;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0.1em;
+}
